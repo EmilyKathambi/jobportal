@@ -1,10 +1,10 @@
 # Recruitment Portal.
 This Recruitment Portal is a web application built with Laravel 11, designed to streamline the recruitment process for companies and job seekers. Companies can post job listings, and candidates can apply directly through the portal. The application features user-friendly interfaces and robust functionality for managing job postings, applications, and user profiles.
 
-## System Features.
+## System Features
 User Authentication: Secure user registration and login functionality.
 
-Role-Based Access Control: Separate roles for Admin, employer, and Human Resource each with distinct permissions.
+Role-Based Access Control: Separate roles for Admin, employer, and Human Resources, each with distinct permissions.
 
 Job Listings Management: Employers can create, update, and delete job postings.
 
@@ -14,13 +14,13 @@ Admin Dashboard: Comprehensive dashboard for managing users, job listings, and s
 
 Notifications: Email and in-app notifications for important actions, such as application submissions and job status updates.
 
-## Technology Stack.
+## Technology Stack
 
 Backend: Laravel 11 (PHP).
 
 Database: PostgreSQL.
 
-Frontend: HTML, CSS, JavaScript, node.js.
+Frontend: HTML, CSS, JavaScript, Node.js.
 
 Tools: Composer, Node.js, npm.
 
@@ -51,7 +51,7 @@ In the project’s root directory, copy the .env.example into .env to configure 
 Download the project’s dependencies
 ```composer install```
 ### Step 3: Set the APP_KEY value in your .env file
-```php artisan key:generate --ansi```
+```php artisan key: generate --ansi```
 ### Step 4:  Configure your database
 Now that you have set up your project, you probably want to store some data in a database.
 ```
@@ -62,16 +62,16 @@ DB_DATABASE=dbname
 DB_USERNAME=dbuser
 DB_PASSWORD=dbpassword
 ```
-### Step 5: Running the Migration
+### Step 5: Run the Migration
 Running migrations will create your application’s database tables.
 ``` php artisan migrate ```
 ### Step 6: Running the seeders
-You may execute the db:seed Artisan command to seed your database with sample data.
+You may execute the db: seed Artisan command to seed your database with sample data.
 ```php artisan db:seed```
 ### Step 7: Start the local server by executing
 ```php artisan serve```
-### Step 8: Running Vite
-Install the node Packages.
+### Step 8: Run Vite
+Install the Node packages.
 ```npm install```
 
 After installing node packages success. Run
