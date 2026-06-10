@@ -24,7 +24,7 @@ Frontend: HTML, CSS, JavaScript, Node.js.
 
 Tools: Composer, Node.js, npm.
 
-## Requirements.
+## Requirements
 
 PHP: >= 8.2
 
@@ -44,7 +44,7 @@ Microsoft Edge
 
 Mozilla Firefox
 
-## Project Installation.
+## Project Installation
 ### Step 1:
 In the project’s root directory, copy the .env.example into .env to configure your database credentials
 ### Step 2: Install Project Dependencies.
@@ -65,7 +65,7 @@ DB_PASSWORD=dbpassword
 ### Step 5: Run the Migration
 Running migrations will create your application’s database tables.
 ``` php artisan migrate ```
-### Step 6: Running the seeders
+### Step 6: Run the seeders
 You may execute the db: seed Artisan command to seed your database with sample data.
 ```php artisan db:seed```
 ### Step 7: Start the local server by executing
@@ -74,6 +74,6 @@ You may execute the db: seed Artisan command to seed your database with sample d
 Install the Node packages.
 ```npm install```
 
-After installing node packages success. Run
+After installing the Node packages successfully, Run
 ```npm run dev```
 
