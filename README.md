@@ -1,4 +1,4 @@
-# Recruitment Portal.
+# Recruitment Admin Portal.
 This Recruitment Portal is a web application built with Laravel 11, designed to streamline the recruitment process for companies and job seekers. Companies can post job listings, and candidates can apply directly through the portal. The application features user-friendly interfaces and robust functionality for managing job postings, applications, and user profiles.
 
 ## System Features
